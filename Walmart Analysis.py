@@ -599,12 +599,3 @@ plt.show()
 res = est.fit(test_df) # Final result for test data
 results = res.predict(test_df)
 # results = pd.DataFrame(results, columns=["Weekly_Sales_Predictions"]).to_csv("C:/Users/chris/Downloads/KmeansResults.csv")
-
-
-# ## Kmean: Expectation Maximization
-
-# In[ ]:
-
-
-# Not enough time to iterate over so centroid is accurate 
-
